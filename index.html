@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fortune-container">
+            <div id="fortune-box" class="fortune-box">
+                <p id="fortune-text"></p>
+            </div>
+            <div class="controls">
+                <div>
+                    <button class="control-btn green" id="text-color-btn" onclick="changeTextColor()"></button>
+                    <button class="control-btn yellow" id="bg-color-btn" onclick="changeBackgroundColor()"></button>
+                </div>
+                <div>
+                    <button class="control-btn blue" id="border-color-btn" onclick="changeBorderColor()"></button>
+                    <button class="control-btn orange" id="font-btn" onclick="changeFont()"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
